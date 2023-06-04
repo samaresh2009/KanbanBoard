@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.toolbox-cont {
+    height: 5rem; /*relative unit to font size of html tag*/
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.toolbox-priority-cont {
+    height: 3rem;
+    width: 18rem;
+    background-color: grey;
+    margin-left: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.action-cont-cont {
+    height: 3rem;
+    width: 10rem;
+    background-color: grey;
+    margin-left: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.color {
+    height: 2rem;
+    width: 3rem;
+}
+
+.red {
+    background-color: red;
+}
+
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.black {
+    background-color: black;
+}
