@@ -55,3 +55,68 @@ body {
 .black {
     background-color: black;
 }
+
+.add-btn, .remove-btn {
+    font-size: 1.25rem;
+}
+
+.modal-cont {
+    background-color: lightgray;
+    height: 50vh;
+    width: 50vh;
+    display: flex;
+}
+
+.textarea-cont {
+    width: 75%;
+    height: 100%;
+    outline: none;
+    border: none;
+    resize: none;
+    background-color: antiquewhite;
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.priority-color-cont{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.priority-cont {
+    height: 3rem;
+    width: 5rem;
+}
+
+.main-cont {
+    margin: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-around;
+}
+
+.ticket-cont {
+    background-color: aqua;
+    height: 15rem;
+    width: 20rem;
+}
+
+.ticket-color {
+    height: 1rem;
+}
+
+.ticket-id {
+    height: 1rem;
+    font-weight: 600;
+}
+
+.task-area {
+    height: 7rem;
+    padding: 5px;
+    font-size: 1.25rem;
+}
