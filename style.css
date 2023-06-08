@@ -63,10 +63,10 @@ body {
 .modal-cont {
     background-color: lightgray;
     height: 50vh;
-    width: 50vh;
+    width: 80vh;
     display: none;
     position: absolute;
-    left: 40%;
+    left: 30%;
     top: 25vh;
 
 }
